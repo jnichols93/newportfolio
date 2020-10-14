@@ -1,0 +1,19 @@
+@import "./colors";
+.banner {
+  display: flex;
+  .banner__text {
+    display: flex;
+    flex-direction: column;
+    padding: 92px;
+    width: 10%;
+    .banner__greeting {
+      color: white;
+    }
+  }
+
+  .banner__image {
+    border-radius: 100%;
+    max-height: 365px;
+    transform: rotate(38deg);
+  }
+}

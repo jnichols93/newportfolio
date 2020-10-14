@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "projectName":"WellDone Dashboard",
+        "imageURL":"https://static1.squarespace.com/static/5ed06e9734f497484a608166/t/5ed075c831c1a80efe2c5121/1596579966532/?format=1500w",
+        "videoURL":"https://share.vidyard.com/watch/GYqbg33wmyLG1ETUcbPJXU?",
+        "stack":["JavaScript", "React.js", "Redux", "Saas", "Node.js", "Express", "SQLite", "PostgreSQL"],
+        "projectDetails":"The Well-Done Dashboard Is an IoT application designed to assist Well-Done in their mission, by persisting, storing, and displaying the data collected by their Mo-Mo sensors. In order to provide decision-makers with a tool to see which pumps are down and need maintenance, if the well is running low, and detailed status reports updated hourly for each pump. Our team started working in early December 2019 and came to a stopping point around mid-February. However in April 2020, I and a few others were contacted by Well-Done directly and asked if we could continue on a volunteer basis! We've come a long way since then, and are almost ready for roll-out.",
+        "contributions": ["Created an activity calendar that uses color to indicate the status by day for an individual sensor and water pump.",
+            "Incorporated dynamic browser routing (welldone.com/monitor/####) to enhance functionality, and ease of use","Used React Map, to display sensor/well locations, incorporating dynamic pins to display the current status of each sensor (Functional, Non-Functional,and Unknown.)","Created and role-based view/access control for three different user-types (WellDone Staff, Org Admin, Org staff.)",
+        "Used ag-grid to build a grid to display all of the organizations currently using Well-Done's devices in pumps they are maintaining or have installed.",
+    "Implemented foreign keys on an existing, active database to enhance API functionality.", "Added the ability to filter and export pump data to an excel spread sheet.", "Created a global mix-ins SASS stylesheet with all colors needed, and common component stylings according to our Figma to make styling changes quick and easy."],
+        "projectLink": "https://welldone.netlify.app/",
+        "gitLink": "https://github.com/Lambda-School-Labs/well-done-fe"
+        
+    },
+    {
+        "id": 2,
+        "projectName":"shAmazon",
+        "videoURL":"https://share.vidyard.com/watch/F3P94Z421eS7JBLahmZsCV?",
+        "imageURL":"https://storefront-a6487.web.app/static/media/shamazon-logo.20e2a4d3.png",
+        "stack":["React", "React-Router", "SASS", "Stripe", "Express", "Firebase"],
+        "projectDetails":"shAmazon is a personal project based on a popular online marketplace. I wanted to get better at using reacts Context API as well as familiarize myself with Firebase and Stripe! Please do not use any actual card info, it will get processed and I don't know how to get it back. As I continue building out the functionality I will be adding a quantity multiplier to prevent duplicate cart items and rounding out the overall user experience intermittently.",
+        "contributions": ["Used Context API for state management", "Shamazon is a single page application, routing was done with react-router.","Used Firebase for hosting, authentication and purchase information.", "Styled the application using Syntactically Awesome Style Sheets (SAAS).", "Incorporated payment handling with stripe."],
+        "projectLink": "https://storefront-a6487.web.app/",
+        "gitLink": "https://github.com/jnichols93/storefront"
+        
+    },
+    {
+        "id": 3,
+        "projectName":"just-ify",
+        "imageURL":"https://justify-ff4a5.web.app/static/media/justify_logo.234a7593.png",
+        "stack":["React", "Material-Ui", "Saas", "Firebase"],
+        "projectDetails":"Justify is a redesign of the music streaming service Spotify, All colors were chosen to look complementary for users with varying types of color blindness. The authentication and all of the data displayed is directly from the Spotify API! Unfortunately I was not able to incorporate actual music streaming as the API does not allow that. The app is hosted on firebase, and is able to display what song is currently playing and all of the playists belonging to the logged in Spotify account.",
+        "contributions": ["Used Data from Spotifys API.", "Used SASS for styling and creating Mix-ins for common colors.", "Integrated authentication from Spotifys API.", "Used Context API for State Management.", "Used React Life-Cycle Methods"],
+        "projectLink": "https://justify-ff4a5.web.app/",
+        "gitLink": "https://github.com/jnichols93/jus-tify"
+        
+    },
+    {
+        "id": 4,
+        "projectName":"Food Truck Trackr (API)",
+        "imageURL":"https://justin-nichols.codes/static/media/ftt.44dd6bf0.png",
+        "stack":["Node.js", "Express", "Sqlite3", "Knex", "PostgreSQL", "SuperTest", "Helmet", "Bcrypt.js"],
+        "projectDetails":"Food Truck Trackr, is an application every foodie needs! It gives users the ability to find their favorite food trucks around town, and where they plan to be next. And food truck owners, can use the platform to communicate with potential guests. As part of a build week, I and a team of four front-end developers built out this application in only four days. I built the API and Database, individually while the rest of the team focused on the front end.",
+        "contributions": ["Built a fully functional CRUD API and Database.",
+            "Used JSON Web Token/Authorization Headers.",
+            "Incorporated foreign keys throughout my DB Table Structure.",
+            "Implemented multiple role based & many to one relationships",
+            "Built Tests for all API functions."],
+        "projectLink": null,
+        "gitLink": "https://github.com/food-truck-trackr/back-end"
+        
+    }
+    
+]
